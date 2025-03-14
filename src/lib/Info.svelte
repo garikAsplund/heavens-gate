@@ -95,6 +95,23 @@
 				</div>
 			</div>
 		</div>
+        <!-- Directions Button Section -->
+        <div class="mt-12 flex justify-center">
+            <a 
+                href="https://maps.app.goo.gl/JNntjqmwrhEKNmyJ6" 
+                target="_blank" 
+                rel="noopener noreferrer" 
+                class="group flex items-center gap-2 rounded-lg bg-gradient-to-r from-orange-500 to-orange-600 px-6 py-3 text-lg font-bold text-white shadow-lg transition-all hover:from-orange-600 hover:to-orange-700 hover:shadow-xl focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 dark:from-orange-600 dark:to-orange-700 dark:ring-offset-gray-900"
+            >
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                </svg>
+                Get Directions to Race Start
+                <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 transition-transform group-hover:translate-x-1" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3" />
+                </svg>
+            </a>
+        </div>
 	</div>
-    <a href="https://maps.app.goo.gl/JNntjqmwrhEKNmyJ6">Directions</a>
 </section>
