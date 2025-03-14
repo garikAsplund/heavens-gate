@@ -11,12 +11,12 @@
 		<div class="grid gap-8 md:grid-cols-2">
 			<!-- 20 Mile Course Card -->
 			<div class="relative overflow-hidden rounded-lg bg-white shadow-xl dark:bg-gray-800">
-				<div class="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-orange-500/20"></div>
+				<div class="absolute -right-10 -top-10 h-40 w-40 rounded-full bg-orange-600/20"></div>
 				<div class="relative flex flex-col h-full z-10 p-6">
 					<div class="mb-4 flex items-center justify-between">
 						<div>
 							<h3 class="font-serif text-2xl font-bold text-gray-800 dark:text-gray-100">20 Mile Course</h3>
-							<span class="text-sm font-medium text-orange-600 dark:text-orange-300">Start Time: 8:00 <span class="text-xs uppercase tracking-wide">AM MDT</span></span>
+							<span class="text-sm font-medium text-orange-600 dark:text-orange-300 pl-1">Start Time: 8:00 <span class="text-xs uppercase tracking-wide">AM MDT</span></span>
 						</div>
 						<span class="rounded-full bg-orange-100 px-4 py-1 text-sm font-semibold text-orange-800 dark:bg-orange-900 dark:text-orange-200">
 							7,500 ft. Elevation Gain
@@ -59,7 +59,7 @@
 					<div class="mb-4 flex items-center justify-between">
 						<div>
 							<h3 class="font-serif text-2xl font-bold text-gray-800 dark:text-gray-100">15K Course</h3>
-							<span class="text-sm font-medium text-orange-600 dark:text-orange-300">Start Time: 9:00 AM MDT</span>
+							<span class="text-sm font-medium text-orange-600 dark:text-orange-300 pl-1">Start Time: 9:00 AM MDT</span>
 						</div>
 						<span class="rounded-full bg-orange-100 px-4 py-1 text-sm font-semibold text-orange-800 dark:bg-orange-900 dark:text-orange-200">
 							4,000 ft. Elevation Gain

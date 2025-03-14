@@ -19,7 +19,7 @@
 			Our race is held under a special use permit granted by the <br />
 			<a 
 				href="https://www.fs.usda.gov/nezperceclearwater" 
-				class="text-orange-500 hover:text-orange-700 dark:text-orange-300 dark:hover:text-orange-200 underline underline-offset-2 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded-sm" 
+				class="text-orange-600 hover:text-orange-700 dark:text-orange-300 dark:hover:text-orange-200 underline underline-offset-2 focus:outline-none focus:ring-2 focus:ring-orange-400 rounded-sm" 
 				rel="noopener noreferrer"
 				target="_blank"
 			>

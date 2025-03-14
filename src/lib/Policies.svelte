@@ -54,7 +54,7 @@
       <div class="mt-16 text-center">
         <p class="italic text-gray-600 dark:text-gray-400">
           For any policy questions, please contact us at 
-          <span class="text-orange-500 dark:text-orange-300 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
+          <span class="text-orange-600 dark:text-orange-300 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
         </p>
       </div>
     </div>
