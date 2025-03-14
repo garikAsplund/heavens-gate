@@ -78,6 +78,7 @@
 			disablepictureinpicture
 			poster="/still.avif"
 			onended={handleVideoEnd}
+            aria-hidden="true"
 		>
 			{#if isMobile}
 				<source src="/hero_mobile.webm" type="video/webm" />
@@ -94,6 +95,8 @@
 					src="/static/hero.jpg"
 					alt="The Seven Devils"
 					class="h-full w-full object-cover object-center"
+                    loading="eager"
+                    fetchpriority="high"
 				/>
 			</div>
 			<div

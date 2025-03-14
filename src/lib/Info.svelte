@@ -16,7 +16,7 @@
 					<div class="mb-4 flex items-center justify-between">
 						<div>
 							<h3 class="font-serif text-2xl font-bold text-gray-800 dark:text-gray-100">20 Mile Course</h3>
-							<span class="text-sm font-medium text-orange-600 dark:text-orange-400">Start Time: 8:00 <span class="text-xs uppercase tracking-wide">AM MDT</span></span>
+							<span class="text-sm font-medium text-orange-600 dark:text-orange-300">Start Time: 8:00 <span class="text-xs uppercase tracking-wide">AM MDT</span></span>
 						</div>
 						<span class="rounded-full bg-orange-100 px-4 py-1 text-sm font-semibold text-orange-800 dark:bg-orange-900 dark:text-orange-200">
 							7,500 ft. Elevation Gain
@@ -24,7 +24,7 @@
 					</div>
 					<div class="mb-4 h-64 w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
 						<enhanced:img
-							src="/static/20.jpg"
+							src="/static/20.jpg?w=1000;300"
 							alt="20 Mile Course Elevation Profile"
 							class="h-full w-full object-cover"
 						/>
@@ -44,7 +44,7 @@
 					</div>
                     <div class="mt-auto w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
 						<enhanced:img
-							src="/static/20.png"
+							src="/static/20.png?w=600;300"
 							alt="20M Course Elevation Profile"
 							class="h-full w-full object-contain"
 						/>
@@ -59,7 +59,7 @@
 					<div class="mb-4 flex items-center justify-between">
 						<div>
 							<h3 class="font-serif text-2xl font-bold text-gray-800 dark:text-gray-100">15K Course</h3>
-							<span class="text-sm font-medium text-orange-600 dark:text-orange-400">Start Time: 9:00 AM MDT</span>
+							<span class="text-sm font-medium text-orange-600 dark:text-orange-300">Start Time: 9:00 AM MDT</span>
 						</div>
 						<span class="rounded-full bg-orange-100 px-4 py-1 text-sm font-semibold text-orange-800 dark:bg-orange-900 dark:text-orange-200">
 							4,000 ft. Elevation Gain
@@ -67,7 +67,7 @@
 					</div>
 					<div class="mb-4 h-64 w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
 						<enhanced:img
-							src="/static/15.jpg"
+							src="/static/15.jpg?w=1000;300"
 							alt="15K Course Elevation Profile"
 							class="h-full w-full object-cover object-top"
 						/>
@@ -87,7 +87,7 @@
 					</div>
                     <div class="mt-auto w-full overflow-hidden rounded-lg bg-gray-200 dark:bg-gray-700">
 						<enhanced:img
-							src="/static/15.png"
+							src="/static/15.png?w=600;300"
 							alt="15K Course Elevation Profile"
 							class="h-full w-full object-contain"
 						/>

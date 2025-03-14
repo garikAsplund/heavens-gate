@@ -15,13 +15,15 @@
 			src="/static/do.png"
 			alt="Not that Heaven's Gate"
 			class="h-24 w-auto opacity-50"
+			loading="lazy"
 		/>
 	</div>
 	<div class="absolute end-0 bottom-0">
 		<enhanced:img
-			src="/static/nikes.webp"
+			src="/static/nikes.webp?w=200;100"
 			alt="Not that Heaven's Gate"
 			class="h-24 w-auto opacity-80"
+			loading="lazy"
 		/>
 	</div>
 	<Watermark />

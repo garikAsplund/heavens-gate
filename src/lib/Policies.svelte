@@ -41,7 +41,7 @@
             Dogs Policy
           </h3>
           
-          <div class="mx-auto max-w-xl space-y-4 text-gray-700 dark:text-gray-300">
+          <div class="mx-auto max-w-xl space-y-4 text-gray-700 dark:text-gray-300 text-left">
             <p>
               Dogs are not permitted to run the race with our runners. This is a safety issue. Dogs attract
               other wild animals and the leashes tangle and cause tripping issues.
@@ -54,7 +54,7 @@
       <div class="mt-16 text-center">
         <p class="italic text-gray-600 dark:text-gray-400">
           For any policy questions, please contact us at 
-          <span class="text-orange-500 dark:text-orange-400 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
+          <span class="text-orange-500 dark:text-orange-300 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
         </p>
       </div>
     </div>

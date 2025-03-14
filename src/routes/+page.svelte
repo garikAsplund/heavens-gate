@@ -7,8 +7,13 @@
 </script>
 
 <Hero />
-<Countdown sponsor="Shu's Idaho Running Company" />
+<Countdown />
 <Info />
 <Course />
 <Policies />
-<enhanced:img src="/static/569.jpg" alt="Above the Rapid River Fish Hatchery" class="h-[500px] w-full object-cover object-center"/>
+<enhanced:img
+	src="/static/569.jpg?w=original;1500;500"
+	alt="Above the Rapid River Fish Hatchery"
+	class="h-[500px] w-full object-cover object-center"
+	loading="lazy"
+/>
