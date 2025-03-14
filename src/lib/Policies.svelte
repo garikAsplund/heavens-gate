@@ -38,7 +38,7 @@
         <!-- Dogs Policy Section -->
         <div class="text-center">
           <h3 class="mb-8 font-serif text-2xl font-semibold text-gray-800 dark:text-gray-100 inline-block border-b-2 border-orange-500 dark:border-orange-400 pb-2">
-            Dogs Policy
+            Dog Policy
           </h3>
           
           <div class="mx-auto max-w-xl space-y-4 text-gray-700 dark:text-gray-300 text-left">

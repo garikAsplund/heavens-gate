@@ -4,6 +4,7 @@
 	import Hero from '$lib/Hero.svelte';
 	import Info from '$lib/Info.svelte';
 	import Policies from '$lib/Policies.svelte';
+	import Shoutouts from '$lib/Shoutouts.svelte';
 </script>
 
 <Hero />
@@ -11,6 +12,7 @@
 <Info />
 <Course />
 <Policies />
+<Shoutouts />
 <enhanced:img
 	src="/static/569.jpg?w=original;1500;500"
 	alt="Above the Rapid River Fish Hatchery"
