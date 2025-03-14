@@ -88,17 +88,16 @@
 			{/if}
 		</video>
 	{:else}
-		<div class="absolute inset-0 -z-10" transition:fade={{ duration: 1500 }}
-        >
-        <div class="fixed inset-0 h-[110%] w-full overflow-hidden">
-            <enhanced:img
-                src="/static/hero.jpg"
-                alt="The Seven Devils"
-                class="h-full w-full object-cover object-center"
-            />
-        </div>
+		<div class="absolute inset-0 -z-10" transition:fade={{ duration: 1500 }}>
+			<div class="fixed inset-0 h-[110%] w-full overflow-hidden">
+				<enhanced:img
+					src="/static/hero.jpg"
+					alt="The Seven Devils"
+					class="h-full w-full object-cover object-center"
+				/>
+			</div>
 			<div
-				class="absolute inset-0 z-0 bg-gradient-to-b from-transparent via-black/10 to-black dark:to-black/40"
+				class="fixed inset-0 z-10 bg-gradient-to-b from-transparent via-black/10 to-black/80"
 			></div>
 		</div>
 		<button
@@ -130,7 +129,7 @@
 	{/if}
 	<div
 		class="z-20 flex h-full translate-y-24 flex-col items-center justify-center space-y-8 px-8 text-center"
-        style="transform: translateY(calc(24px - {scrollY * 0.4}px));"
+		style="transform: translateY(calc(24px - {scrollY * 0.4}px));"
 	>
 		<h1
 			class="font-[Bangers] text-4xl font-semibold tracking-wider text-gray-100 drop-shadow-xl md:text-8xl"
