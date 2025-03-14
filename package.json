@@ -42,6 +42,7 @@
 		]
 	},
 	"dependencies": {
+		"@number-flow/svelte": "^0.3.5",
 		"@vercel/analytics": "^1.5.0",
 		"lucide-svelte": "^0.479.0"
 	}

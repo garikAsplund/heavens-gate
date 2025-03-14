@@ -1,5 +1,7 @@
 <!-- Countdown.svelte -->
 <script>
+	import NumberFlow, { NumberFlowGroup } from '@number-flow/svelte';
+
 	const { raceDate = new Date('2025-05-03T00:00:00'), title = 'Countdown to Race Day!' } = $props();
 
 	let days = $state(0);
@@ -42,14 +44,18 @@
 <div class="w-full bg-black p-6 pb-24 text-white">
 	<h2 class="mb-8 text-center text-3xl font-bold italic">{title}</h2>
 
-	<!-- 2x2 Grid Layout -->
+	<!-- 2x2 Grid Layout with NumberFlow -->
 	<div class="mx-auto grid max-w-2xl grid-cols-2 gap-6 md:grid-cols-4 md:gap-8">
 		<!-- Days -->
 		<div class="relative flex flex-col items-center">
 			<div
 				class="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-black md:h-32 md:w-32"
 			>
-				<span class="text-4xl font-bold md:text-5xl">{days}</span>
+				<NumberFlowGroup>
+					<span style="font-variant-numeric: tabular-nums; --number-flow-char-height: 0.85em" class="text-4xl font-bold md:text-5xl">
+						<NumberFlow trend={-1} value={days} format={{ minimumIntegerDigits: 2 }} />
+					</span>
+				</NumberFlowGroup>
 			</div>
 			<svg
 				class="absolute top-0 left-1/2 h-24 w-24 -translate-x-1/2 md:h-32 md:w-32"
@@ -75,7 +81,11 @@
 			<div
 				class="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-black md:h-32 md:w-32"
 			>
-				<span class="text-4xl font-bold md:text-5xl">{hours}</span>
+				<NumberFlowGroup>
+					<span style="font-variant-numeric: tabular-nums; --number-flow-char-height: 0.85em" class="text-4xl font-bold md:text-5xl">
+						<NumberFlow trend={-1} value={hours} format={{ minimumIntegerDigits: 2 }} />
+					</span>
+				</NumberFlowGroup>
 			</div>
 			<svg
 				class="absolute top-0 left-1/2 h-24 w-24 -translate-x-1/2 md:h-32 md:w-32"
@@ -101,7 +111,11 @@
 			<div
 				class="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-black md:h-32 md:w-32"
 			>
-				<span class="text-4xl font-bold md:text-5xl">{minutes}</span>
+				<NumberFlowGroup>
+					<span style="font-variant-numeric: tabular-nums; --number-flow-char-height: 0.85em" class="text-4xl font-bold md:text-5xl">
+						<NumberFlow trend={-1} value={minutes} digits={{ 1: { max: 5 } }} format={{ minimumIntegerDigits: 2 }} />
+					</span>
+				</NumberFlowGroup>
 			</div>
 			<svg
 				class="absolute top-0 left-1/2 h-24 w-24 -translate-x-1/2 md:h-32 md:w-32"
@@ -127,7 +141,11 @@
 			<div
 				class="flex h-24 w-24 items-center justify-center rounded-full border-4 border-white bg-black md:h-32 md:w-32"
 			>
-				<span class="text-4xl font-bold md:text-5xl">{seconds}</span>
+				<NumberFlowGroup>
+					<span style="font-variant-numeric: tabular-nums; --number-flow-char-height: 0.85em" class="text-4xl font-bold md:text-5xl">
+						<NumberFlow trend={-1} value={seconds} digits={{ 1: { max: 5 } }} format={{ minimumIntegerDigits: 2 }} />
+					</span>
+				</NumberFlowGroup>
 			</div>
 			<svg
 				class="absolute top-0 left-1/2 h-24 w-24 -translate-x-1/2 md:h-32 md:w-32"
