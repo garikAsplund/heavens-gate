@@ -159,7 +159,7 @@
           class="group transition-all duration-300"
         >
           <div class="bg-white rounded-lg px-8 py-4 hover:bg-gray-100 transition-all duration-300 shadow-lg">
-            <p class="text-2xl md:text-3xl font-bold text-black">
+            <p class="text-2xl md:text-3xl font-bold text-black text-center">
               Shu's Idaho Running Company
               <span class="block h-0.5 w-0 group-hover:w-full bg-orange-600 transition-all duration-500"></span>
             </p>
