@@ -17,6 +17,9 @@ importers:
       lucide-svelte:
         specifier: ^0.479.0
         version: 0.479.0(svelte@5.23.0)
+      svelte-medium-image-zoom:
+        specifier: ^0.2.4
+        version: 0.2.4(svelte@5.23.0)
     devDependencies:
       '@eslint/compat':
         specifier: ^1.2.5
@@ -1774,6 +1777,11 @@ packages:
       svelte:
         optional: true
 
+  svelte-medium-image-zoom@0.2.4:
+    resolution: {integrity: sha512-cnLCfypdIQG5wIbWklNikc86wUsC8j9Lj5b3lVcS4nkgnZIyMupYDZ0PDgFVpgLOvF4hgst3KN9QTScv7EETqw==}
+    peerDependencies:
+      svelte: ^5.0.0
+
   svelte-parse-markup@0.1.5:
     resolution: {integrity: sha512-T6mqZrySltPCDwfKXWQ6zehipVLk4GWfH1zCMGgRtLlOIFPuw58ZxVYxVvotMJgJaurKi1i14viB2GIRKXeJTQ==}
     peerDependencies:
@@ -3379,6 +3387,10 @@ snapshots:
       postcss-scss: 4.0.9(postcss@8.5.3)
       postcss-selector-parser: 7.1.0
     optionalDependencies:
+      svelte: 5.23.0
+
+  svelte-medium-image-zoom@0.2.4(svelte@5.23.0):
+    dependencies:
       svelte: 5.23.0
 
   svelte-parse-markup@0.1.5(svelte@5.23.0):
