@@ -7,7 +7,7 @@
 </script>
 
 <Hero />
-<Countdown />
+<Countdown sponsor="Shu's Idaho Running Company" />
 <Info />
 <Course />
 <Policies />

@@ -1,4 +1,18 @@
-<section class="w-full bg-gray-50 py-20 dark:bg-gray-900 scroll-mt-12" id="policies">
+<script>
+    // Define your policy items in a reusable array
+    const refundPolicyItems = [
+      { number: 1, text: "We will refund 50% of your entry fee until April 1st at 11:59pm." },
+      { number: 2, text: "After April 1st, there will be no refunds." },
+      { number: 3, text: "We will not do any rollover or transfer of bibs." },
+      { 
+        number: 4, 
+        text: "This is a mountain race. If the race must be cancelled due to fire, severe weather, pandemic, etc, there is no possible way for us to refund or rollover your entry. That money is gone. When you register, consider this issue and either commit or stick to safer races that run in circles."
+      },
+      { number: 5, text: "If facing personal financial hardship, reach out to us." }
+    ];
+  </script>
+  
+  <section class="w-full bg-gray-50 py-20 dark:bg-gray-900 scroll-mt-12" id="policies">
     <div class="container mx-auto max-w-3xl px-6">
       <h2 class="mb-16 text-center font-serif text-4xl font-bold text-gray-800 dark:text-gray-100">
         Race Policies
@@ -12,29 +26,12 @@
           </h3>
           
           <ol class="mx-auto max-w-xl space-y-4 text-gray-700 dark:text-gray-300 text-left list-none">
-            <li class="pb-4 border-b border-gray-100 dark:border-gray-800">
-              <span class="inline-block w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600 text-white rounded-full text-center leading-8 font-medium">1</span>
-              We will refund 50% of your entry fee until April 1st at 11:59pm.
+            {#each refundPolicyItems as item, index}
+            <li class="{index < refundPolicyItems.length - 1 ? 'pb-4 border-b border-gray-100 dark:border-gray-800' : 'pt-4'} {index > 0 && index < refundPolicyItems.length - 1 ? 'py-4' : ''} flex">
+              <span class="flex-shrink-0 w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600/50 text-white rounded-full text-center leading-8 font-medium">{item.number}</span>
+              <span class="flex-1">{item.text}</span>
             </li>
-            <li class="py-4 border-b border-gray-100 dark:border-gray-800">
-              <span class="inline-block w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600 text-white rounded-full text-center leading-8 font-medium">2</span>
-              After April 1st, there will be no refunds.
-            </li>
-            <li class="py-4 border-b border-gray-100 dark:border-gray-800">
-              <span class="inline-block w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600 text-white rounded-full text-center leading-8 font-medium">3</span>
-              We will not do any rollover or transfer of bibs.
-            </li>
-            <li class="py-4 border-b border-gray-100 dark:border-gray-800">
-              <span class="inline-block w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600 text-white rounded-full text-center leading-8 font-medium">4</span>
-              This is a mountain race. If the race must be cancelled due to fire, severe weather, pandemic,
-              etc, there is no possible way for us to refund or rollover your entry. That money is gone.
-              When you register, consider this issue and either commit or stick to safer races that run in
-              circles.
-            </li>
-            <li class="pt-4">
-              <span class="inline-block w-8 h-8 mr-3 bg-orange-500 dark:bg-orange-600 text-white rounded-full text-center leading-8 font-medium">5</span>
-              If facing personal financial hardship, reach out to us.
-            </li>
+          {/each}
           </ol>
         </div>
         
@@ -57,7 +54,7 @@
       <div class="mt-16 text-center">
         <p class="italic text-gray-600 dark:text-gray-400">
           For any policy questions, please contact us at 
-          <span class="text-orange-600 dark:text-orange-400 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
+          <span class="text-orange-500 dark:text-orange-400 font-medium md:select-all">jeremy_humphrey@yahoo.com</span>
         </p>
       </div>
     </div>
