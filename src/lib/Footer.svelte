@@ -10,7 +10,7 @@
 ></div>
 
 <footer class="flex w-full flex-col bg-white">
-	<div class="absolute start-0 md:start-48 bottom-0">
+	<div class="absolute start-0 bottom-0">
 		<enhanced:img
 			src="/static/do.png"
 			alt="Not that Heaven's Gate"
