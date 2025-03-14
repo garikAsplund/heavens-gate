@@ -7,7 +7,7 @@
 
 <nav
 	class="fixed top-0 z-50 w-full {scrolled
-		? 'bg-white/30 shadow-sm backdrop-blur-md transition-all duration-800'
+		? 'bg-white/70 shadow-sm backdrop-blur-md transition-all duration-800'
 		: 'bg-transparent md:transition-all md:duration-800'}"
 >
 	<div class="container mx-auto px-4 py-4 md:px-6">
